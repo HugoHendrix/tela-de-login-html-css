@@ -18,17 +18,17 @@ html {
 body {
     font-size: 1.6rem;
     font-family: 'Noto Sans', sans-serif;
+    min-width: 31rem;
 
 }
 
 /* CONTAINER QUE SEGURA O TEXTO, IMAGEM E O LOGIN CARD */
 
 .main-login {
-    width:100vw;
-    height:100vh;
+    width:100%;
+    margin: 0 auto;
     background: #201b2c;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;    /*CENTRALIZA NO EIXO X*/
     align-items:center;         /*CENTRALIZA NO EIXO Y*/
 }
@@ -39,7 +39,7 @@ body {
     width: 50vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;    
     justify-content: center;
     align-items: center;
 }
@@ -142,22 +142,6 @@ body {
 
 
 
-/* RODAPE  */
-
-footer {
-    display:flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
-    background: #201b2c;
-    width: 50%;
-  }
-
-
-  a {
-    text-decoration: none;  
-}
 
 /*  RESPONSIVIDADE  */
 
@@ -187,10 +171,23 @@ footer {
 }
 
 .card-login {
-    width: 90%;
+    width: 100%;
     
 }
 
 }
 
+@media only screen and (max-width:400px) {
+    .main-login {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .left-login-image {
+        width: 90%;
+    }
+
+    .right-login {
+        width: 90%;
+    }
+}
