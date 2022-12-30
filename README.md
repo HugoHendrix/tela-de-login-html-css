@@ -8,7 +8,7 @@ Para dar continuidade nos estudos, segui as intruções do video no Youtube, <a 
 
 Conheci o site https://storyset.com/ sendo possível utilizar imagens e animações gratuitamente.
 
-Aprofudei os conhecimentos em responsividade através da Media Queries. 
+Aprofundei os meus conhecimentos em responsividade através das Medias Queries. 
 
 
 ## Referência
