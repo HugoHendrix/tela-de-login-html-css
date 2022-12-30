@@ -1,6 +1,6 @@
 
 # Página de Login e senha com HTML e CSS.   
-Para dar continuidade nos estudos, segui as intruções do video no Youtube, <a href="https://www.youtube.com/@Markzuel">Markzuel. </a> Nesse projeto foi desenvolvido uma páginde de login e senha com uma animação incrível.
+Para dar continuidade nos estudos, segui as intruções do video no Youtube, <a href="https://www.youtube.com/@Markzuel">Markzuel. </a> Nesse projeto foi desenvolvido uma página de de login e senha com uma animação incrível.
 
 
 
