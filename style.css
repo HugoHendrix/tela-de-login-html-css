@@ -22,7 +22,7 @@ body {
 
 }
 
-/* CONTAINER QUE SEGURA O TEXTO, IMAGEM E O LOGIN CARD */
+/* CONTAINER QUE SEGURA O TEXTO, IMAGEM E LOGIN CARD */
 
 .main-login {
     width:100%;
@@ -159,12 +159,16 @@ body {
     height: 100%;
     width: 100%;
 }
+
+
+
 .left-login > h1 {
     display: none;    
 }
 
 .left-login {
     width: 100%;
+    height: 50%;
 }
 .left-login-image {
     width: 60vw;
@@ -177,17 +181,4 @@ body {
 
 }
 
-@media only screen and (max-width:400px) {
-    .main-login {
-        display: flex;
-        flex-direction: column;
-    }
 
-    .left-login-image {
-        width: 90%;
-    }
-
-    .right-login {
-        width: 90%;
-    }
-}
