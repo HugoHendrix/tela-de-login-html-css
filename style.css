@@ -19,6 +19,8 @@ body {
     font-size: 1.6rem;
     font-family: 'Noto Sans', sans-serif;
     min-width: 31rem;
+    background: #201b2c;
+
 
 }
 
@@ -138,6 +140,40 @@ body {
     box-shadow: 0px 10px 40px -12px #00ff8052;
 
 }
+
+
+/* RODA PÉ */
+
+footer {
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    text-decoration: none;  
+}
+
+
+/* ESTLIZANDO A BARRAS DE ROLAGEM  */
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:  #2b134b;;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color:  #00ff88;;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid  #514869;;  /* creates padding around scroll thumb */
+  }
 
 
 
