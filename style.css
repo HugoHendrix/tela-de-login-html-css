@@ -159,7 +159,7 @@ footer {
 }
 
 
-/* ESTLIZANDO A BARRAS DE ROLAGEM  */
+/* ESTLIZANDO A BARRA DE ROLAGEM  */
 
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
